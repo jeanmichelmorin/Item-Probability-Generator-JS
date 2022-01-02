@@ -1,6 +1,22 @@
 # Item-Probability-Generator
 
-## How To
+## The Context
+A big factor of fun in many games is randomness. Nothing sparks you more joy than getting an extremely rare item. 
+But how can we rig the Math.random() functionality in a way where some items are more likely to be dropped than others? 
+This is what this project is all about. Hopefully my little script can help you.
+
+## The Experiment
+First, I needed to find a way to trick the Math.random() function.
+
+There's no way to trick it by itself... but what if you had multiple instances of that same item? What if they were in an array?
+
+Instead of getting a 0 (for a Bronze Knife) OR getting a 1 (for a Silver Knife), what if we had 8 instances of a Bronze Knife and 2 instances of a Silver Knife?
+
+So for a total of 10 possibilities, my Math.random() could hit between 0 to 9, which then makes it more likely to hit a Bronze Knife (8 instances) rather than a Silver Knife (2 instances).
+
+
+
+## How To Use My Script
 
 ### Step 1: We create our array of objects (using our Item object in item.js).
 
