@@ -14,9 +14,16 @@ Instead of getting a 0 (for a Bronze Knife) OR getting a 1 (for a Silver Knife),
 
 So for a total of 10 possibilities, my Math.random() could hit between 0 to 9, which then makes it more likely to hit a Bronze Knife (8 instances) rather than a Silver Knife (2 instances).
 
-
+Because Javascript's Math.random() is [pseudo-random](https://medium.com/@amy.cen/how-random-is-math-random-4bc195d74498Medium), it would be advantageous to shuffle the array after everytime we pick. So even if the randomness is slighty biased, 2 randomness factors makes it even more random.
 
 ## How To Use My Script
+
+Firstly, import my 2 scripts into your `index.html`, in respective order:
+```
+<script type="text/javascript" src="item.js"></script>
+<script type="text/javascript" src="probability.js"></script>
+<!-- THEN YOUR OWN SCRIPTS UNDER -->
+```
 
 ### Step 1: We create our array of objects (using our Item object in item.js).
 
