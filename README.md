@@ -1,3 +1,4 @@
+# /!\ OUTDATED /!\ Please use https://github.com/jeanmichelmorin/Item-Probability-Generator-JS-v2
 # Item-Probability-Generator
 
 ## The Context
